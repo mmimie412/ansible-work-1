@@ -1,1 +1,1 @@
-This is an ansible playbook repository
+This is an ansible repository containing host files
