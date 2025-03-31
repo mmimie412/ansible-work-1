@@ -1,7 +1,2 @@
 ---
 # tasks file for html
-- name: Ensure /var/www/html exists
-  file:
-    path: /var/www/html
-    state: directory
-...
