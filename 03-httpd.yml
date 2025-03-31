@@ -9,13 +9,13 @@
        name: httpd
        state: present
 
-- name: start httpd
-  service:
-    name: httpd
-    state: started 
+   - name: start Httpd
+     service:
+       name: httpd
+       state: started 
 
-- name: Enable Httpd
-  service:
+   - name: Enable Httpd
+     service:
        name: httpd
        enabled: yes
 ...
