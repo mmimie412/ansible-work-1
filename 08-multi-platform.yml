@@ -9,7 +9,6 @@
        name: httpd
        state: present
      when: ansible_distribution == 'Amazon' or ansible_distribution == 'centos'
-
    - name: start Httpd
      service:
        name: httpd
