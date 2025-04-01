@@ -22,15 +22,6 @@
        path: /home/fedora/new_dir
        state: directory
 
-- name: Update n3 servers
-  hosts: n3
-
-  tasks:
-   - name: Create Directory
-     file:
-       path: /home/fedora/new_dir
-       state: directory      
-
 - name: Update group1 servers
   hosts: g1
 
