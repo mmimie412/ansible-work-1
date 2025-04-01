@@ -4,3 +4,4 @@
   file:
     path: /var/www/html
     state: directory
+    mode: '0755'
