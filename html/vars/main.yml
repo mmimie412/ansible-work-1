@@ -1,2 +1,3 @@
 ---
-# vars file for html
+# roles/ensure_html_directory/vars/main.yml
+html_directory: "/var/www/html"
