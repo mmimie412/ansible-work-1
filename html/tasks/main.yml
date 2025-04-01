@@ -1,2 +1,7 @@
 ---
-# tasks file for html
+# roles/ensure_html_directory/tasks/main.yml
+- name: Ensure /var/www/html exists
+  file:
+    path: /var/www/html
+    state: directory
+...
