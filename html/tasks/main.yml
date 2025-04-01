@@ -4,4 +4,3 @@
   file:
     path: /var/www/html
     state: directory
-...
