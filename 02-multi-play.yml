@@ -26,10 +26,6 @@
   hosts: n3
 
   tasks:
-   - name: Debug host information
-     debug:
-       msg: 'Creating /var/www/html on {n3}'
-
    - name: Create Directory
      file:
        path: /home/fedora/new_dir
