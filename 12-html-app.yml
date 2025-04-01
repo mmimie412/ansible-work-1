@@ -4,5 +4,5 @@
   become: yes
   roles:
    - apache
-   - ensure_html_directory
+   - html
 ...
