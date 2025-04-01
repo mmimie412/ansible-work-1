@@ -32,7 +32,6 @@
        path: /var/www/html
        state: directory 
 
-   - name: Create Directory
      file:
        path: /home/fedora/new_dir
        state: directory      
